@@ -1,0 +1,23 @@
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(3, 100px) auto;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.game-board button {
+    grid-column: span 4;
+    background-color: lightcoral;
+    padding: 10px 20px;
+    color: white;
+    border:  none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.game-board button:hover {
+    background-color: lightcyan;
+    color: black;
+}
